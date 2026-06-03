@@ -1,4 +1,4 @@
-# 📱 Fundamentos de Flutter y Dar
+# 📱 Fundamentos de Flutter y Dart
 
 Bienvenido a este repositorio interactivo. El objetivo de este proyecto es documentar desde cero los conceptos básicos de Flutter y su lenguaje de programación, Dart.
 
