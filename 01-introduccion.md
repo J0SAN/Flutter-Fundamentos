@@ -4,8 +4,20 @@ Antes de escribir código, es fundamental entender las dos piezas clave que hace
 
 ## ¿Qué es Dart? (El Motor)
 Dart es el lenguaje de programación creado por Google. Piensa en Dart como el idioma oficial en el que le damos instrucciones a nuestra aplicación. 
-* **Es fácil de leer:** Si alguna vez has visto lenguajes como JavaScript, Java o C#, Dart te resultará muy familiar.
-* **Es seguro:** Tiene características modernas que evitan que la aplicación colapse inesperadamente (como la protección contra valores nulos o vacíos).
+* **Es fácil de leer:** Al compartir una estructura orientada a objetos, su sintaxis resulta muy natural y familiar al venir de entornos como C# o JavaScript.
+* **Es seguro:** Tiene características modernas como el *Null Safety*, que evitan que la aplicación colapse inesperadamente por valores nulos o vacíos en tiempo de ejecución.
+
+**Ejemplo básico de Dart:**
+```dart
+// Una función tradicional y variables tipadas
+void main() {
+  String mensaje = 'Hola, desarrollador';
+  int anio = 2026;
+  
+  // Interpolación de variables directa en el texto
+  print('$mensaje en el año $anio'); 
+}
+```
 
 ## ¿Qué es Flutter? (La Carrocería y el Diseño)
 Flutter no es un lenguaje, es un **Framework** (una caja de herramientas de software). Utiliza el lenguaje Dart para construir la interfaz visual de la aplicación.
